@@ -71,6 +71,7 @@ body {
 
 #survey-form .tabs {
     display: flex;
+    margin-bottom: 1em;
 }
 
 #survey-form .labels {
