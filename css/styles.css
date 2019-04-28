@@ -106,3 +106,13 @@ select {
 #survey-form .mandatory {
     font-size: 0.8em;
 }
+
+#survey-form #submit {
+    display: block;
+    width: 10em;
+    padding: 1em;
+    margin: 0 var(--space-auto);
+    background-color: #7526d5;
+    border: none;
+    color: var(--white-color)
+}
