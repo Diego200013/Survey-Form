@@ -3,3 +3,23 @@
 #   Freecodecamp Project  #
 #      ©Diego Rojas       # 
 #*************************/
+
+:root {
+    /* color styles */
+    --theme-page-bgcolor: rgb(233, 231, 231);
+}
+
+
+/* General styles */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+/* Body Styles */
+
+body {
+    background-color: var(--theme-page-bgcolor);
+}
