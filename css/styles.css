@@ -7,8 +7,10 @@
 :root {
     /* color styles */
     --theme-page-bgcolor: rgb(233, 231, 231);
-    --bg-primary: #100e17
+    --bg-primary: #100e17;
     /* -: #ff8a00; */
+    /* spaces styles */
+    --space-auto: auto;
 }
 
 
@@ -31,4 +33,6 @@ body {
 
 .survey-container {
     background-color: var(--bg-primary);
+    width: 70%;
+    margin: 0 var(--space-auto);
 }
