@@ -18,7 +18,7 @@
         <form action="#" id="survey-form">
             <div class="tabs">
                 <div class="labels">
-                    <span class="mandatory">* </span>Name:
+                    <label id="name-label" for="name"><span class="mandatory">* </span>Name:</label>
                 </div>
                 <div class="fields">
                     <input id="name" required type="text">
@@ -26,7 +26,7 @@
             </div>
             <div class="tabs">
                 <div class="labels">
-                    <span class="mandatory">* </span>Email:
+                    <label id="email-label" for="email"><span class="mandatory">* </span>Email:</label>
                 </div>
                 <div class="fields">
                     <input id="email" required type="email">
@@ -34,7 +34,7 @@
             </div>
             <div class="tabs">
                 <div class="labels">
-                    <span class="mandatory">* </span>Age:
+                    <label id="number-label" for="number"> <span class="mandatory">* </span>Age:</label>
                 </div>
                 <div class="fields">
                     <input id="number" min="5" max="100" required type="number">
