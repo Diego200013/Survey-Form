@@ -84,7 +84,8 @@ body {
     width: 50%;
 }
 
-#survey-form .fields input {
+#survey-form .fields input,
+select {
     width: 80%;
     height: 2em;
 }
