@@ -5,12 +5,15 @@
 #*************************/
 
 :root {
-    /* color styles */
+    /* color styles*/
+    --white-color: #fff;
+    /* color styles background*/
     --theme-page-bgcolor: rgb(233, 231, 231);
     --bg-primary: #100e17;
     /* -: #ff8a00; */
     /* spaces styles */
     --space-auto: auto;
+    --space-center: center;
 }
 
 
@@ -35,4 +38,14 @@ body {
     background-color: var(--bg-primary);
     width: 70%;
     margin: 0 var(--space-auto);
+}
+
+
+/* survey form styles */
+
+.survey-container #title {
+    color: var(--white-color);
+    font-family: Tahoma, sans-serif;
+    text-align: var(--space-center);
+    padding: 1em;
 }
