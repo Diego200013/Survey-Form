@@ -84,10 +84,16 @@ body {
     width: 50%;
 }
 
-#survey-form .fields input,
+#survey-form .fields input[type="text"],
+input[type="number"],
+input[type="email"],
 select {
     width: 80%;
     height: 2em;
+}
+
+#survey-form #skill-level-container label {
+    display: block;
 }
 
 #survey-form .mandatory {
