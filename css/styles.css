@@ -7,6 +7,8 @@
 :root {
     /* color styles */
     --theme-page-bgcolor: rgb(233, 231, 231);
+    --bg-primary: #100e17
+    /* -: #ff8a00; */
 }
 
 
@@ -22,4 +24,11 @@
 
 body {
     background-color: var(--theme-page-bgcolor);
+}
+
+
+/* Survey Form Container */
+
+.survey-container {
+    background-color: var(--bg-primary);
 }
