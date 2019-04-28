@@ -7,10 +7,10 @@
 :root {
     /* color styles*/
     --white-color: #fff;
+    --secondary-color: #ff8a00;
     /* color styles background*/
     --theme-page-bgcolor: rgb(233, 231, 231);
     --bg-primary: #100e17;
-    /* -: #ff8a00; */
     /* spaces styles */
     --space-auto: auto;
     --space-center: center;
@@ -59,4 +59,35 @@ body {
 
 .survey-container #survey-form {
     margin: 3em 2em;
+}
+
+
+/* form fields styles */
+
+#survey-form {
+    color: var(--secondary-color);
+    font-size: 1.4em;
+}
+
+#survey-form .tabs {
+    display: flex;
+}
+
+#survey-form .labels {
+    width: 40%;
+    text-align: right;
+    padding-right: 1em;
+}
+
+#survey-form .fields {
+    width: 50%;
+}
+
+#survey-form .fields input {
+    width: 80%;
+    height: 2em;
+}
+
+#survey-form .mandatory {
+    font-size: 0.8em;
 }
