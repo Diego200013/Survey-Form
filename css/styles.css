@@ -92,7 +92,8 @@ select {
     height: 2em;
 }
 
-#survey-form #skill-level-container label {
+#survey-form #skill-level-container label,
+#courses-add-container label {
     display: block;
 }
 
