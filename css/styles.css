@@ -99,7 +99,7 @@ select {
 
 #survey-form .fields textarea {
     width: 80%;
-    height: 4em;
+    height: 10em;
     resize: vertical;
 }
 
